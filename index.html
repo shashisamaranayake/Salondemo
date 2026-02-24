@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glow Luxe Beauty Salon</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#0f0f0f;
+  color:white;
+}
+
+header{
+  padding:20px;
+  text-align:center;
+  background:black;
+  font-size:24px;
+  letter-spacing:2px;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url("images/hero.jpg") center/cover no-repeat;
+}
+
+.hero h1{
+  font-size:40px;
+}
+
+.section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+}
+
+.gallery img{
+  width:300px;
+  border-radius:15px;
+}
+
+button{
+  padding:12px 25px;
+  background:gold;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+  border-radius:30px;
+  margin-top:20px;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  background:black;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+Glow Luxe Beauty Salon
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Luxury Beauty Experience</h1>
+    <p>Los Angeles, California</p>
+    <button>Book Now</button>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Our Gallery</h2>
+  <div class="gallery">
+    <img src="images/gallery1.jpg" alt="Gallery 1">
+    <img src="images/gallery2.jpg" alt="Gallery 2">
+  </div>
+</section>
+
+<footer>
+  © 2026 Glow Luxe Beauty Salon | +1 310 555 7284
+</footer>
+
+</body>
+</html>
